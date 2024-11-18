@@ -8,6 +8,7 @@ import Favorite from './pages/Favorite'
 import { Route, Routes } from 'react-router-dom'
 import Header from './components/Header'
 import Footer from './components/Footer'
+import NotFound from './pages/NotFound'
 
 const App = () => {
   return (
@@ -21,6 +22,7 @@ const App = () => {
                 <Route path="/faq" element={<Faq />} />
                 <Route path="/delivery-points" element={<DeliveryPoints />} />
                 <Route path="/orders" element={<Orders />} />
+                <Route path="/*" element={<NotFound />} />
             </Routes>
           <Footer />
         </div>  
