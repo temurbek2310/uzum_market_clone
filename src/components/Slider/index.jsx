@@ -1,5 +1,6 @@
 import React from 'react'
 import { Splide, SplideSlide } from '@splidejs/react-splide';
+import { SplideImage1, SplideImage10, SplideImage2, SplideImage3, SplideImage4, SplideImage5, SplideImage6, SplideImage7, SplideImage8, SplideImage9 } from '../../imports/imports';
 
 // Default theme
 import '@splidejs/react-splide/css';
@@ -17,31 +18,43 @@ import { Link } from 'react-router-dom';
 const SliderElements = [
   {
     id: 1,
-    image: "https://images.uzum.uz/csnh79lpq3ggq63c8id0/main_page_banner.jpg",
+    image: SplideImage1,
   },
   {
     id: 2,
-    image: "https://images.uzum.uz/cspjc6bvgbkpg1nlrko0/main_page_banner.jpg",
+    image: SplideImage2,
   },
   {
     id: 3,
-    image: "https://images.uzum.uz/csrk7ftpq3ggq63deto0/main_page_banner.jpg",
+    image: SplideImage3,
   },
   {
     id: 4,
-    image: "https://images.uzum.uz/csn1kv5pq3ggq63c5h90/main_page_banner.jpg",
+    image: SplideImage4,
   },
   {
     id: 5,
-    image: "https://images.uzum.uz/csmsfrtpq3ggq63c3830/main_page_banner.jpg",
+    image: SplideImage5,
   },
   {
     id: 6,
-    image: "https://images.uzum.uz/csnh82j4nkdp9akebfm0/main_page_banner.jpg",
+    image: SplideImage6,
   },
   {
     id: 7,
-    image: "https://images.uzum.uz/csnh7e3vgbkpg1nl8epg/main_page_banner.jpg",
+    image: SplideImage7,
+  },
+  {
+    id: 8,
+    image: SplideImage8,
+  },
+  {
+    id: 9,
+    image: SplideImage9,
+  },
+  {
+    id: 10,
+    image: SplideImage10,
   },
 ]
 
