@@ -1,13 +1,22 @@
+//          FAVICON START
+import Favicon from '../assets/images/svg/favicon_uzum.svg';
+//          FAVICOM END
+
+
+
 //          LOGO START
-import logo from '../assets/images/logo.svg';
+import Logo from '../assets/images/svg/logo_uzum.svg';
 //          LOGO END
 
+
+
 //          NAVBAR START
-    
+
 //          NAVBAR END
 
 
 
 export {
-    logo
+    Favicon,
+    Logo
 }
