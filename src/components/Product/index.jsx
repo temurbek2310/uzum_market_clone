@@ -1,8 +1,21 @@
 import React from 'react'
 
-const Product = () => {
+const Product = ({item}) => {
+  const {
+    image,
+    title,
+    imageSub,
+    rating,
+    ratedVoice,
+    monthlyPayment,
+    oldPrice,
+    newPrice
+
+  } = item  
   return (
-    <div>Product</div>
+    <div>
+        <h2>Arzon narxlar{">"}</h2>
+    </div>
   )
 }
 

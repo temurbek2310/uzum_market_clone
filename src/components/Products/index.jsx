@@ -1,8 +1,23 @@
-import React from 'react'
+import React, { useState } from 'react'
+import Product from '../Product'
+import { popularProducts } from '../../../public/db.json'
 
 const Products = () => {
+  const [product, setProduct] = useState(popularProducts)
   return (
-    <div>Products</div>
+    <div>
+
+      {
+        product.map((item) => {
+          return (
+
+            <Product key={item.id} item={item}/>
+
+          )
+      })
+      }
+
+    </div>
   )
 }
 

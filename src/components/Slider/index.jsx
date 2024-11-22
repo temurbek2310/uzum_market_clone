@@ -14,6 +14,7 @@ import '@splidejs/react-splide/css/sea-green';
 // or only core styles
 import '@splidejs/react-splide/css/core';
 import { Link } from 'react-router-dom';
+import { SliderWrapper } from './style';
 
 const SliderElements = [
   {
@@ -60,7 +61,7 @@ const SliderElements = [
 
 const Slider = () => {
   return (
-    <div>
+    <SliderWrapper>
       <Splide options={{ type: 'loop', autoplay: true, interval: 2000 }} aria-label="My Favorite Images">
         {
           SliderElements.map((item) => {
@@ -74,7 +75,7 @@ const Slider = () => {
         }
 
       </Splide>
-    </div>
+    </SliderWrapper>
   )
 }
 

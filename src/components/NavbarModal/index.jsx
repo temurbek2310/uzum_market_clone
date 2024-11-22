@@ -1,6 +1,6 @@
 import React from 'react'
 import { NavbarMenu } from './style';
-import { navbarItems } from '../Header';
+import { navbarItems } from '../../imports/data/navbarItems';
 import { Link } from 'react-router-dom';
 
 const NavbarModal = () => {

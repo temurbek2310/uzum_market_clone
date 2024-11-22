@@ -57,7 +57,6 @@ export const HeaderTop = styled.div`
             border:none;
             transition: border .3s ease ;
                 &:hover {
-                    border:1px solid #222;
                     transition: border .3s ease;
                     cursor: pointer;
                 }
@@ -158,7 +157,7 @@ export const HeaderMid = styled.div`
         &-list {
                 display:flex;
         align-items:center;
-        gap:30px;
+        gap:15px;
         list-style:none;
         }
         
@@ -166,6 +165,15 @@ export const HeaderMid = styled.div`
                     display:flex;
                     align-items:center;
                     gap:7px;
+                    font-size: 16px;
+                    transition: all .2s ease;
+                    border-radius: 3px;
+                    padding: 5px 10px;  
+
+                    &:hover {
+                        transition: all .2s ease;
+                        background-color:dimgray;
+                    }
         }
     }
 
@@ -173,23 +181,41 @@ export const HeaderMid = styled.div`
 export const Navbar = styled.nav`
 position:relative;
 padding: 0px 0px 20px 0px;
+    
     .navbar__list {
         display:flex;
         align-items:center;
-        gap:15px;
         list-style: none;
+
     
-    
-        li  a {
-            display:flex;
-            align-items:center;
-            gap: 9px;
-            
-  
-            h5 {
-                font-size: 12px;
-            }
+        li a {
+        display: flex;
+        align-items: center;
+        // justify-content: center;
+        gap: 6px;
+        padding: 0px 3px;
+        position: relative;
+
+        h5 {
+            font-size: 14px;
         }
+
+        &::after {
+            content: "";
+            position: absolute;
+            background: #7F4DFF;
+            height: 2px;
+            width: 0;
+            left: 0;
+            bottom: -10px;
+            transition: width 0.3s ease;
+        }
+
+        &:hover::after {
+            width: 100%;
+        }
+
+}
 
         &--item-btn {
             outline: none;
