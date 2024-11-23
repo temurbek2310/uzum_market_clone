@@ -83,8 +83,8 @@ export const HeaderMid = styled.div`
 
     .header__mid--right--item-wrapper {
         display: flex;
-        align-items:center;
-        gap:5px;
+        align-items: center;
+        gap: 5px;
 
         .cart--quantity {
             display: inline-block;
@@ -140,14 +140,14 @@ export const HeaderMid = styled.div`
                     }
                         
                     i {
-                            position: absolute;
-                            border: 1px solid #EDEFF2;
-                            right: 0px;
-                            border-right: 0.5px solid black;
-                            background:#EDEFF2;
-                            padding: 12px 28px;
-                            color:#4D4F59;
-                        }
+                        position: absolute;
+                        border: 1px solid #EDEFF2;
+                        right: 0px;
+                        border-right: 0.5px solid black;
+                        background:#EDEFF2;
+                        padding: 12px 28px;
+                        color:#4D4F59;
+                    }
               }      
     }
 
@@ -156,9 +156,9 @@ export const HeaderMid = styled.div`
 
         &-list {
                 display:flex;
-        align-items:center;
-        gap:15px;
-        list-style:none;
+                align-items:center;
+                gap:15px;
+                list-style:none;
         }
         
            &-item a {

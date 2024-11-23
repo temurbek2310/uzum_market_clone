@@ -2,11 +2,11 @@ import React from 'react'
 import Slider from '../../components/Slider'
 import Products from '../../components/Products'
 
-const Home = () => {
+const Home = ({addToCart}) => {
   return (
     <div>
       <Slider />
-      <Products />
+      <Products addToCart={addToCart}/>
     </div>
   )
 }

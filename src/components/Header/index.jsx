@@ -6,6 +6,7 @@ import { Logo } from "../../imports/imports";
 import { navbarItems } from '../../imports/data/navbarItems';
 
 
+
 const Header = ({ length }) => {
   let location = ["Asaka"];
   const [openModal, setOpenModal] = useState(false);

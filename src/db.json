@@ -1,0 +1,215 @@
+{
+    "popularProducts": [
+        {
+            "id": 1,
+            "title": "Kungaboqar yog'i Oila tanlovi tozalangan va xidsizlantirilgan, 90...",
+            "image": "https://via.placeholder.com/400x540",
+            "imageSub": "Ekslyusiv",
+            "rating": 4.9,
+            "ratedVoice":   4092,
+            "monthlyPayment": 1560,
+            "oldPrice": 15000,
+            "Price": 13000
+        },
+        {
+            "id": 2,
+            "title": "Smartfon Xiaomi Redmi Note 13,6/128 GB, 8/128 GB, 8/256GB,..",
+            "image": "https://via.placeholder.com/400x540",
+            "imageSub": "Aksiya",
+            "rating": 5.0,
+            "ratedVoice": 8,
+            "monthlyPayment": 299880,
+            "oldPrice": 3010000,
+            "Price": 2499000
+        },
+        {
+            "id": 3,
+            "title": "Kir yuvish kukuni Oila tanlovi 'Ayoz tazeligi', avtomat, 3 kg",
+            "image": "https://via.placeholder.com/400x540",
+            "imageSub": "Ekslyusiv",
+            "rating": 4.5,
+            "ratedVoice": 123,
+            "monthlyPayment": 4920,
+            "oldPrice": 57000,
+            "Price": 41000
+        },
+        {
+            "id": 4,
+            "title": "Yangi tug'ilgan chaqaloqlar uchun tana to'plami 100% paxta, 3 dona",
+            "image": "https://via.placeholder.com/400x540",
+            "imageSub": "Aksiya",
+            "rating": 5.0,
+            "ratedVoice": 1,
+            "monthlyPayment": 11880,
+            "oldPrice": 160000,
+            "Price": 99000
+        },
+        {
+            "id": 5,
+            "title": "Sdobnoe pechenye ZarqandBrownie cookies, 490 g",
+            "image": "https://via.placeholder.com/400x540",
+            "imageSub": "Aksiya",
+            "rating": 5.0,
+            "ratedVoice": 88,
+            "monthlyPayment": 4320,
+            "oldPrice": 59000,
+            "Price": 36000
+        },
+        {
+            "id": 6,
+            "title": "Televizor Samsung Crystal UHD 4K 43, 50, 55, 65 CU7100 Smart TV",
+            "image": "https://via.placeholder.com/400x540",
+            "imageSub": "Aksiya",
+            "rating": 5.0,
+            "ratedVoice": 5,
+            "monthlyPayment": 587880,
+            "oldPrice": 5830000,
+            "Price": 4899000
+        },
+        {
+            "id": 7,
+            "title": "Avtomobil va uy uchun portativ,simsiz, kuchli JB-107 changyutgic…",
+            "image": "https://via.placeholder.com/400x540",
+            "imageSub": "Aksiya",
+            "rating": 4.7,
+            "ratedVoice": 32,
+            "monthlyPayment": 23880,
+            "oldPrice": 620000,
+            "Price": 199000
+        },
+        {
+            "id": 8,
+            "title": "Sumka shopper ayollar uchun,yelkama, charmdan, eko zamsh,…",
+            "image": "https://via.placeholder.com/400x540",
+            "imageSub": "Aksiya",
+            "rating": 5.0,
+            "ratedVoice": 4,
+            "monthlyPayment": 11880,
+            "oldPrice": 400000,
+            "Price": 99000
+        },
+        {
+            "id": 9,
+            "title": "Smartfon Xiaomi Redmi Note 13Pro, 8/256 ГБ, 12/512 ГБ, 6.67, 1…",
+            "image": "https://via.placeholder.com/400x540",
+            "imageSub": "Aksiya",
+            "rating": 5.0,
+            "ratedVoice": 6,
+            "monthlyPayment": 448680,
+            "oldPrice": 6000000,
+            "Price": 3739000
+        },
+        {
+            "id": 10,
+            "title": "Yostiqlar to'plami, bambukdan,gipoallergenli, ekologik toza, 70 *…",
+            "image": "https://via.placeholder.com/400x540",
+            "imageSub": "Aksiya",
+            "rating": 4.9,
+            "ratedVoice": 165,
+            "monthlyPayment": 10680,
+            "oldPrice": 197000,
+            "Price": 89000
+        },
+        {
+            "id": 11,
+            "title": "Drel shurup buragich L-FINE,ho'tkasiz to'plam, 54 ta buyumdan",
+            "image": "https://via.placeholder.com/400x540",
+            "imageSub": "Aksiya",
+            "rating": 5.0,
+            "ratedVoice": 10,
+            "monthlyPayment": 71880,
+            "oldPrice": 850000,
+            "Price": 599000
+        },{
+            "id": 12,
+            "title": "Erkaklar uchun krossovka Jomar.vitaly men 2201 black",
+            "image": "https://via.placeholder.com/400x540",
+            "imageSub": "DI sport",
+            "rating": 5.0,
+            "ratedVoice": 20,
+            "monthlyPayment": 41880,
+            "oldPrice": 687000,
+            "Price": 349000
+        },{
+            "id": 13,
+            "title": "Kir yuvish mashinasi Beko WSPE7612A, Inverter ProSmart, 7…",
+            "image": "https://via.placeholder.com/400x540",
+            "imageSub": "Aksiya",
+            "rating": 4.9,
+            "ratedVoice": 47,
+            "monthlyPayment": 455880,
+            "oldPrice": 4570000,
+            "Price": 3799000
+        },{
+            "id": 14,
+            "title": "Gazlangan ichimlik Pepsi, 1.5 litr",
+            "image": "https://via.placeholder.com/400x540",
+            "imageSub": "Aksiya Pepsi",
+            "rating": 4.9,
+            "ratedVoice": 1939,
+            "monthlyPayment": 1440,
+            "oldPrice": 13000,
+            "Price": 12000
+        },{
+            "id": 15,
+            "title": "Casio F-91W Qo'l Soati, Elektron tablo, Budilnik, Sekundomer, LED…",
+            "image": "https://via.placeholder.com/400x540",
+            "imageSub": "Aksiya",
+            "rating": 5.0,
+            "ratedVoice": 3,
+            "monthlyPayment": 35880,
+            "oldPrice": 420000,
+            "Price": 299000
+        },{
+            "id": 16,
+            "title": "Sport kostyumi o'g'il bolalar uchun DUDUKA TRENDS. To'plam Hudi…",
+            "image": "https://via.placeholder.com/400x540",
+            "imageSub": "Aksiya",
+            "rating": 0.0,
+            "ratedVoice": 0,
+            "monthlyPayment": 23880,
+            "oldPrice": 388000,
+            "Price": 199000
+        },{
+            "id": 17,
+            "title": "Chanyutgich Artel VCB0316, 1600Vt",
+            "image": "https://via.placeholder.com/400x540",
+            "imageSub": "Aksiya",
+            "rating": 4.9,
+            "ratedVoice": 48,
+            "monthlyPayment": 83880,
+            "oldPrice": 999000,
+            "Price": 699000
+        },{
+            "id": 18,
+            "title": "Avtomobil monitorlari Teyes CC2L Plus 10.2/2+32 Gentra, Lasetti…",
+            "image": "https://via.placeholder.com/400x540",
+            "imageSub": "Aksiya",
+            "rating": 4.9,
+            "ratedVoice": 29,
+            "monthlyPayment": 142000,
+            "oldPrice": 1752000,
+            "Price": 1190000
+        },{
+            "id": 19,
+            "title": "Shampun L'Oreal Paris Elseve, to'liq tiklanish 5, 250 ml",
+            "image": "https://via.placeholder.com/400x540",
+            "imageSub": "Aksiya",
+            "rating": 5.0,
+            "ratedVoice": 6,
+            "monthlyPayment": 3240,
+            "oldPrice": 38000,
+            "Price": 27000
+        },{
+            "id": 20,
+            "title": "Tabiiy charmdan tayyorlangan etiklar, qishki, mex bilan, suv…",
+            "image": "https://via.placeholder.com/400x540",
+            "imageSub": "Aksiya",
+            "rating": 0.0,
+            "ratedVoice": 0,
+            "monthlyPayment": 35880,
+            "oldPrice": 599000,
+            "Price": 299000
+        }
+    ]
+}

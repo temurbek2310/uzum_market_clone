@@ -24,3 +24,9 @@ a{
 .splide__track{
   border-radius: 10px;
 }
+
+.products__heading{
+  margin-bottom: 20px;
+  font-size: 36px;
+  font-weight: bold;
+}

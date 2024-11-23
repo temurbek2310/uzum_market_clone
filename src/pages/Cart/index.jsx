@@ -1,8 +1,20 @@
 import React from 'react'
 
-const Cart = () => {
+const Cart = ({ item }) => {
   return (
-    <div>Cart</div>
+    <div>
+
+      {item.map((item) => {
+        return (
+          <div>
+            <img src={item.image} alt={item.title} />
+            <h2>{item.title}</h2>
+          </div>
+        )
+
+      })}
+
+    </div>
   )
 }
 
