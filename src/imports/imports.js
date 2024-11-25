@@ -26,14 +26,23 @@ import SplideImage9 from '../assets/images/sliderImage/splide_image9.jpg';
 import SplideImage10 from '../assets/images/sliderImage/splide_image10.jpg';
 
 
-//          PRODUCT
-
+//          FOOTER
+import appleLogo from '../assets/images/svg/applelogo.svg';
+import playLogo from '../assets/images/svg/playlogo.svg';
+import instagramLogo from '../assets/images/svg/instagram.svg';
+import telegramLogo from '../assets/images/svg/telegram.svg';
+import facebookLogo from '../assets/images/svg/facebook.svg';
+import youtubeLogo from '../assets/images/svg/youtube.svg';
 // Export qilinadigan o'zgaruvchilar
 export {
     Favicon,
-    Logo,
-    NavbarImage,
+    Logo, instagramLogo,
+    telegramLogo,
+    facebookLogo,
+    youtubeLogo,
+    NavbarImage, appleLogo,
     ElectronicsImage,
+    playLogo,
     MachineImage,
     ClothesImage,
     ShoesImage,

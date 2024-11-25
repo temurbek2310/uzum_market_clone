@@ -9,6 +9,7 @@ import { Route, Routes } from 'react-router-dom'
 import Header from './components/Header'
 import Footer from './components/Footer'
 import NotFound from './pages/NotFound'
+import Carreers from './pages/Careers'
 
 const App = () => {
   const [cart, setCart] = useState([])
@@ -18,15 +19,16 @@ const App = () => {
   }
   return (
     <>
-      <Header length={cart.length}/>
+      <Header length={cart.length} />
       <div className='container'>
         <Routes>
           <Route path="/" element={<Home addToCart={addToCart} />} />
-          <Route path="/cart" element={<Cart item={cart}/>} />
+          <Route path="/cart" element={<Cart item={cart} />} />
           <Route path="/favorite" element={<Favorite />} />
           <Route path="/faq" element={<Faq />} />
           <Route path="/delivery-points" element={<DeliveryPoints />} />
           <Route path="/orders" element={<Orders />} />
+          <Route path="/careers" element={<Carreers />} />
           <Route path="/*" element={<NotFound />} />
         </Routes>
         <Footer />

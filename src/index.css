@@ -30,3 +30,51 @@ a{
   font-size: 36px;
   font-weight: bold;
 }
+
+.flex{
+  display: flex;
+}
+
+.align-center{
+  align-items: center;
+}
+
+.justify-center{
+  justify-content: center;
+}
+
+.justify-between{
+  justify-content: space-between;
+}
+
+.justify-around{
+  justify-content: space-around;
+}
+
+.justify-evenly{
+  justify-content: space-evenly;
+}
+
+.gap-10{
+  gap: 10px;
+}
+
+.gap-20{
+  gap: 20px;
+}
+
+.ml-auto{
+  margin-left: auto;
+}
+
+ol, ul{
+  list-style-type: none;
+}
+
+.footer__top--left-btn {
+  margin-bottom: 10px;
+  cursor: pointer;
+  border: none;
+  background: transparent;
+  color: #8b8e99;
+}
