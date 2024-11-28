@@ -23,7 +23,7 @@ const App = () => {
       <div className='container'>
         <Routes>
           <Route path="/" element={<Home addToCart={addToCart} />} />
-          <Route path="/cart" element={<Cart item={cart} />} />
+          <Route path="/cart" element={<Cart item={cart} length={cart.length} addToCart={addToCart} setCart={setCart}/>} />
           <Route path="/favorite" element={<Favorite />} />
           <Route path="/faq" element={<Faq />} />
           <Route path="/delivery-points" element={<DeliveryPoints />} />

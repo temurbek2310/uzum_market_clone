@@ -100,6 +100,7 @@ margin-top: 60px;
                 position: absolute;
                 font-weight: 400;
                 line-height: 14px;
+                font-size: 13px;
                 color: #7e818c;
                 right: 0; 
                 top: -30px;  

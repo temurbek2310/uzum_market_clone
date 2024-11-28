@@ -9,8 +9,8 @@ const Product = ({ item, addToCart }) => {
     rating,
     ratedVoice,
     monthlyPayment,
-    oldPrice,
-    Price
+    oldprice,
+    price
   } = item
   return (
     <ProductWrapper>
@@ -27,8 +27,8 @@ const Product = ({ item, addToCart }) => {
           <p><i className='fa-solid fa-star'></i> {rating} <span>({ratedVoice} sharh)</span></p>
         </div>
         <p className='product__bottom--monthly-payment'>{monthlyPayment} so'm/oyiga</p>
-        <del className='product__bottom--oldPrice'>{oldPrice} so'm</del>
-        <h6 className='product__bottom--price'>{Price} so'm</h6>
+        <del className='product__bottom--oldPrice'>{oldprice} so'm</del>
+        <h6 className='product__bottom--price'>{price} so'm</h6>
         <button className='product__bottom--btn' onClick={() => addToCart(item)} >
           <i className='fa-solid fa-cart-plus'></i>
         </button>
