@@ -25,6 +25,8 @@ import SplideImage8 from '../assets/images/sliderImage/splide_image8.jpg';
 import SplideImage9 from '../assets/images/sliderImage/splide_image9.jpg';
 import SplideImage10 from '../assets/images/sliderImage/splide_image10.jpg';
 
+//          CART
+import CartImage from '../assets/images/cart_image.png';
 
 //          FOOTER
 import appleLogo from '../assets/images/svg/applelogo.svg';
@@ -40,6 +42,7 @@ export {
     telegramLogo,
     facebookLogo,
     youtubeLogo,
+    CartImage,
     NavbarImage, appleLogo,
     ElectronicsImage,
     playLogo,

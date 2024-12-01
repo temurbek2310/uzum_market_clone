@@ -12,6 +12,10 @@ const Product = ({ item, addToCart }) => {
     oldprice,
     price
   } = item
+
+  const formatNumber = (number) => {
+    return number.toString().replace(/\B(?=(\d{3})+(?!\d))/g, " ");
+  };
   return (
     <ProductWrapper>
       <div className='product__top'>
@@ -27,8 +31,8 @@ const Product = ({ item, addToCart }) => {
           <p><i className='fa-solid fa-star'></i> {rating} <span>({ratedVoice} sharh)</span></p>
         </div>
         <p className='product__bottom--monthly-payment'>{monthlyPayment} so'm/oyiga</p>
-        <del className='product__bottom--oldPrice'>{oldprice} so'm</del>
-        <h6 className='product__bottom--price'>{price} so'm</h6>
+        <del className='product__bottom--oldPrice'>{formatNumber(oldprice)} so'm</del>
+        <h6 className='product__bottom--price'>{formatNumber(price)} so'm</h6>
         <button className='product__bottom--btn' onClick={() => addToCart(item)} >
           <i className='fa-solid fa-cart-plus'></i>
         </button>
