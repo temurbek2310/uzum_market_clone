@@ -7,13 +7,21 @@ import { Link } from 'react-router-dom';
 const Cart = ({ item, length, addToCart, setCart }) => {
   const [count, setCount] = useState(1);
   var tomorrow = new Date();
-  tomorrow.setDate(tomorrow.getDay() + 1);
+  tomorrow.setDate(tomorrow.getDay() + 2);
 
   const calculateCartTotal = (cartItems) => {
     return cartItems.reduce((total, item) => total + item.price, 0);
   };
 
+  const calculateOldPrice = (cartItems) => {
+    return cartItems.reduce((total, item) => total + item.oldprice, 0);
+  };
+
   const totalCartPrice = calculateCartTotal(item);
+  const totalCartOldPrice = calculateOldPrice(item);
+  const savedPrice = totalCartOldPrice - totalCartPrice;
+  const discount = totalCartPrice - savedPrice;
+  const kuryer = 1000000 - savedPrice
 
   const revomeItem = (id) => {
     setCart(item.filter((item) => item.id !== id))
@@ -120,14 +128,12 @@ const Cart = ({ item, length, addToCart, setCart }) => {
                     </p>
 
                     <button>Yetkazib berish sanasi {tomorrow.toDateString()}</button>
-
-                    <div>
-                      <p>Jami:</p>
-                      <h6></h6>
-                      <span>Tejovingiz: { } so'm</span>
+                    <div className='total'>
+                      <p>Jami: <span>{formatNumber(discount)} so'm</span></p>
+                      <span>Tejovingiz: {formatNumber(savedPrice)} so'm</span>
                     </div>
 
-                    <button>Rasmiylashtirishga o'tish</button>
+                    <button className='officialize__btn'><Link to={'/'}>Rasmiylashtirishga o'tish</Link></button>
                   </div>
 
                   {/* RIGHT TOP END */}
@@ -137,14 +143,24 @@ const Cart = ({ item, length, addToCart, setCart }) => {
                   {/* RIGHT BOTTOM START */}
                   <div className="cart__inner--right--bottom">
                     <div>
-                      <p>
+                      <p className='delivery'>
                         Buyurtmalarni topshirish punktiga bepul yetkazib beramiz
                       </p>
-                      <i className='fa-solid fa-question'></i>
-                      <p>
-                        <span>1 000 000 so'm</span>
-                        <i className='fa-solid fa-house'></i>
+                      <p className='note'>
+                        Kuryer orqali bepul yetkazishgacha {formatNumber(kuryer)} so'm <br /> qoldi
                       </p>
+                      <i className='fa-solid fa-question'></i>
+                      <progress value="25" max="100"></progress>
+                      <div className="bottom">
+                        <p className='barrier'>
+                          <span>25 000 so'm</span>
+                          <i className='fa-solid fa-location-dot'></i>
+                        </p>
+                        <p className='barriers'>
+                          <span>1 000 000 so'm</span>
+                          <i className='fa-solid fa-house'></i>
+                        </p>
+                      </div>
                     </div>
                   </div>
                   {/* RIGHT BOTTOM END */}

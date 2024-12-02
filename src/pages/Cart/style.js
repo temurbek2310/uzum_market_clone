@@ -314,7 +314,53 @@ export const CartWrapper = styled.div`
                         text-align: right;
                     }
                 }
-            }
+
+                button {
+                    width: 100%;
+                    border: 1px solid #7000ff;
+                    background-color: transparent;
+                    color: #7000ff;
+                    padding: 3px 0px;
+                    border-radius: 2px; 
+                    margin: 15px 0px;
+                    cursor: pointer;
+                }
+
+                .total {
+                    p {
+                        font-family: 'Inter', sans-serif;
+
+                        span {
+                            color: #1f2026;
+                            font-size: 20px;
+                        }
+                    }
+
+                    span {
+                        color: #00ad3a;
+                        text-align: right;
+                        display: block;
+                        font-family: 'Inter', sans-serif;
+                        font-size: 11px;
+                        margin-top: 3px;
+                    }
+                }
+
+                .officialize__btn {
+                    background-color: #7000ff;
+                    border: none;
+                    padding: 15px 0px;
+                    cursor: pointer;
+                    border-radius: 12px;
+                    
+                    a {
+                        font-family: 'Inter', sans-serif;
+                        color: #fff;
+                        font-size: 16px;
+                    }
+                }
+
+            }   
 
             &--topp {
                 display: flex;
@@ -338,6 +384,88 @@ export const CartWrapper = styled.div`
 
             &--bottom {
                 box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+                background-color: #f0f2f5;
+                position: relative;
+
+                div {
+                    .delivery {
+                        font-family: 'Inter', sans-serif;
+                        font-size: 14px;
+                        font-style: normal;
+                        font-weight: 600;
+                        line-height: 20px;
+                        color: #1f2026;
+                        margin-bottom: 10px;
+                    }
+
+                    .note {
+                        font-family: 'Inter', sans-serif;
+                        font-size: 14px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 20px;
+                        color: #4d4f59;
+                    }
+
+                    .fa-question {
+                        position: absolute;
+                        right: 15px;
+                        color: #f0f2f5;
+                        top: 20px;
+                        cursor: pointer;
+                        border-radius: 50%;
+                        border: 1px solid #7e818c;
+                        background-color: #7e818c;
+                        padding: 2px 5px;
+                    } 
+
+                    progress {
+                        width: 100%;
+                        height: 5px;
+                        overflow: hidden;
+                        background-color: #00ad3a;
+                    }
+
+                    progress::-webkit-progress-bar {
+                        /* Progressning orqa foni (Chrome, Safari) */
+                        background-color: white;
+                    }
+
+                    progress::-webkit-progress-value {
+                        /* To'ldirilgan joy (Chrome, Safari) */
+                        background-color: #00ad3a;
+                        border-radius: 10px; /* Faqat chap tomonni yumaloqlash */
+                    }
+
+                    .bottom {
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                    
+                        .barrier {
+                            color: #00ad3a;
+                            font-size: 12px;
+                            font-family: 'Inter', sans-serif;
+                            font-style: normal;
+                            margin-left: 7px;
+                            margin-top: 10px;
+                            display: flex;
+                            gap: 5px;
+                        }
+
+                        .barriers {
+                            color: #4d4f59;
+                            font-size: 12px;
+                            font-family: 'Inter', sans-serif;
+                            font-style: normal;
+                            margin-left: 7px;
+                            margin-top: 10px;
+                            display: flex;
+                            gap: 5px;
+                        }
+                    }
+                }
+
             }
         }
     }
